@@ -1,0 +1,314 @@
+body {
+	margin: 0;
+}
+/* ------------------------------------------HEADER-------------------------------------*/
+.headercontainer {
+	margin: 0;
+	background-color: #252627;
+
+}
+.headername {
+	display: inline-block;
+	margin: 1% 33% 1% 10%;
+	font-size: 2vw;
+	color: #F2EFE9;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 900;
+}
+.aboutmelink {
+	text-decoration: none;
+	font-size: 1.5vw;
+	color: #BFB48F;
+	padding: 100% 1vw 2.5vw 1vw;
+	font-family: 'Quicksand', sans-serif;
+	transition: font-size 1s;
+}
+.skillslink {
+	text-decoration: none;
+	font-size: 1.5vw;
+	padding: 100% 1vw 2.5vw 1vw;
+	font-family: 'Quicksand', sans-serif;
+	color: #BFB48F;
+	transition: font-size 1s;
+}
+.worklink {
+	text-decoration: none;
+	font-size: 1.5vw;
+	padding: 100% 1vw 2.5vw 1vw;
+	font-family: 'Quicksand', sans-serif;
+	color: #BFB48F;
+	transition: font-size 1s;
+}
+.contactlink {
+	text-decoration: none;
+	font-size: 1.5vw;
+	padding: 100% 1vw 2.5vw 1vw;
+	font-family: 'Quicksand', sans-serif;
+	color: #BFB48F;
+	transition: font-size 1s;
+}
+.aboutmelink:hover, .skillslink:hover, .worklink:hover, .contactlink:hover {
+	background-color: #F2EFE9;
+	color: #252627;
+	font-size: 1.8vw;
+}
+/* ------------------------------------------HEADER END-------------------------------------*/
+/* ------------------------------------------INTRO START-------------------------------------*/
+.introblock {
+	margin: 0;
+	background-color: #F2EFE9;
+	height: 42vw;
+}
+.introphotocontainer {
+	position: relative;
+	width: 35vw;
+	height: 35vw;
+	padding: 5vw 31.87vw 0;
+	margin: 0;
+}
+.introphoto {
+	position: absolute;
+	left: 31.87vw;  
+	top: 5vw; 
+	bottom: 0; 
+	right: 31.87vw;
+	width: 35vw;  
+	height: 35vw;
+	opacity: 0.95;
+}
+.hellotext {
+	position: absolute;
+	margin-left: 2.75vw;
+	margin-top: 11vw;
+	font-family: 'Lobster', cursive;
+	font-size: 4.8vw;
+
+}
+.juniortext {
+	position: absolute;
+	margin-left: 3vw;
+	margin-top: 17.5vw;	
+	font-family: 'Lobster', cursive; 
+	font-size: 2.6vw;
+
+}
+/* ------------------------------------------INTRO END-------------------------------------*/
+/* ------------------------------------------ABOUT ME START-------------------------------------*/
+.aboutmetitleblock {
+	margin: 0;
+	background-color: #613A43;
+	width: 98.7vw;
+	height: 8.5vw;
+	padding-top: 1.5vw;
+}
+#aboutmetitle {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 3.6vw;
+}
+.aboutmeblock {
+	background-color: #613A43;
+	width: 98.7vw;
+	height: 20vw;
+}
+.aboutmeimage {
+	width: 14.82vw;
+	height: 14.82vw;
+	float: left;
+	margin-left: 25vw;
+	margin-right: 4vw;
+}
+.aboutmetext {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.4vw;
+	margin: 0 auto;
+	width: 34vw;
+	padding-top: 0vw;
+	letter-spacing: 0.1vw;
+	line-height: 2.3vw;
+	transition: 3s;
+	transition-timing-function: ease;
+}
+.aboutmetext:hover {
+	width: 55vw;
+	height: 10vw;
+	font-size: 2vw;
+}
+/* ------------------------------------------ABOUT ME END-------------------------------------*/
+/* ------------------------------------------SKILLS START----------------------------------*/
+.skillstitleblock {
+	margin: 0; 
+	background-color: #A1B82F;
+	width: 98.7vw;
+	height: 6.5vw;
+	padding-top: 1.5vw;
+}
+#skillstitle {
+	background-color: #A1B82F;
+	margin: 0 auto;
+	padding-left: 42.35vw;
+	font-family: 'Lobster', cursive;
+	font-size: 3.6vw;
+}
+.skillsblock {
+	background-color: #A1B82F;
+}
+.skillstable{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.3vw;
+	text-align: center;
+	width: 50vw;
+	height: 30vw;
+	margin-left: 22vw;
+	padding-bottom: 3.5vw;
+}
+.htmlrow .cssrow .javascriptrow .bootstraprow .sqlrow .phprow .pythonrow {
+
+}
+.htmllevel .csslevel .javascriptlevel .bootstraplevel .sqllevel .phplevel .pythonlevel {
+
+}
+td {
+	border-bottom: 1px dotted black;
+	border-width: 0.13vw;
+}
+/*--------------------------------SKILLS END------------------------------------------*/
+/*--------------------------------EXPERIENCE START------------------------------------*/
+.xpblock {
+	background-color: #BBC7CE;
+	height: auto;
+	width: 98.7vw;
+}
+#xptitle {
+	margin: 0 auto;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 3.6vw;
+}
+.hpeimage {
+	box-sizing: border-box;
+	float: right;
+	margin: 6vw 2vw;	
+	width: 28vw;
+	height: 14vw;
+}
+h3 {
+	font-family: 'Vollkorn SC', serif;
+	font-size: 1.4vw;
+	margin-left: 15vw;
+	margin-top: 3vw;
+	margin-bottom: 0.2vw;
+
+}
+h5 {
+	background-color: #BBC7CE;
+	font-family: 'Vollkorn SC', serif;
+	font-size: 1vw;
+	margin-left: 15vw;
+	margin-top: 0.2vw;
+	transition: 1s;
+}
+h5:hover {
+	font-size: 1.5vw;
+}
+ul {
+	width: 63vw;
+}
+li {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.1vw;
+	font-weight: bold;
+	line-height: 1.5vw;
+	letter-spacing: 0.1vw;
+}
+hr {
+	background-color: #BBC7CE;
+	border-color: black;
+	border-style: none;
+	border-top: 0.2vw dotted;
+	width: 45vw;
+	margin: 0 auto;
+	bottom: 0;
+	left: 35vw;
+
+}
+.telusimage {
+	box-sizing: border-box;
+	float: left;
+	margin: 4vw 2vw;	
+	width: 28vw;
+	height: 14vw;
+}
+.teluslist {
+	width: 92vw;
+	margin-left: 3vw;
+}
+.telusworktitle {
+	margin-left: 20vw;
+	margin-top: 5vw;
+}
+.telusdates {
+	margin-left: 20vw;
+	margin-top: 0.2vw;
+}
+.cgsblock {
+	background-color: #BBC7CE
+}
+.cgsimage {
+	box-sizing: border-box;
+	float: right;
+	margin: 6vw 2vw;	
+	width: 28vw;
+	height: 14vw;
+
+}
+.cgsworktitle {
+	margin-top: 0;
+	padding-top: 3.5vw;
+	background-color: #BBC7CE;
+}
+.cgslist {
+	background-color: #BBC7CE;
+	margin-bottom: 0;
+}
+/*-----------------------------------------------EXPERIENCE END-------------------------------------------*/
+/*-----------------------------------------------CONTACT START-------------------------------------------*/
+.contactblock {
+	background-color: #2c003e;
+	text-align: center;
+	margin: 0;
+}
+#contacttitle {
+	margin: 0 auto;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 3.6vw;
+	color: #d2fafb;
+}
+.infoblock {
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+	color: #d2fafb;
+	font-size: 1.5vw;
+}
+p {
+	margin: 0;
+	padding-bottom: 0.5vw;
+}
+a {
+	text-decoration: none;
+	color: #d2fafb;
+	transition: 1s;
+	border-radius: 0.2vw;
+}
+a:hover {
+	background-color: #d2fafb;
+	color: #2c003e;
+	border-radius: 1vw;
+}
+/*-----------------------------------------------CONTACT END-------------------------------------------*/
